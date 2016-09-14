@@ -1,0 +1,124 @@
+/* Drazy's Quote Machine
+Coded for FreeCode Camp Challenge
+find me on FB, Linkedin, NLBStudios.com */
+
+
+/* FONT IMPORTS */
+@import 'https://fonts.googleapis.com/css?family=Architects+Daughter|Gochi+Hand|Muli';
+/* END FONTS */
+
+/* ---- START TYPOGRAPHY ---- */
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+}
+
+p {
+  font-family: 'Architects Daughter', Sans-Serif;
+  font-size: 20px;
+}
+
+.quotetitle {
+  font-size: 40px;
+  font-family: 'Architects Daughter', Sans-Serif;
+}
+
+.footertext {
+  color: white;
+  font-family: 'Gochi Hand', Sans-Serif;
+}
+
+.nlb {
+  color: #8dc641;
+  text-shadow: 1px 1px #000000;
+}
+
+.nlbblack {
+  color: #252525;
+}
+
+.reid {
+  color: #9fe8f8;
+  text-shadow: 1px 1px #000000;
+}
+
+body {
+  background: url("https://hd.unsplash.com/photo-1467663802424-21ff675548c4") fixed no-repeat;
+}
+
+/* ---- Layout ---- */
+
+.fcctext {
+  margin-top: 10px;
+}
+
+
+.separator {
+  height: 2px;
+  width: 40px;
+  background-color: #838689;
+  margin: auto;
+}
+
+.containerquote {
+  width: 600px;
+  background-color: #e5e5e5;
+  margin-top: 100px;
+  height: 600px;
+  border-radius: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+
+#quotebutton {
+  width: 200px;
+  height: auto;
+  vertical-align: baseline;
+  margin: 20px auto;
+  background-color: #003366;
+  font-family: 'Muli', Sans-Serif;
+  
+}
+
+#quotebutton:hover {
+  color: #0EBFE9;
+  background-color: #454545;
+  transition: ease-in-out all 0.4s;
+  -webkit-transition: ease-in-out all 0.4s;
+  -moz-transition: ease-in-out all 0.4s;
+  -o-transition: ease-in-out all 0.4s;
+
+}
+
+#quotes {
+  margin: auto;
+}
+
+/* ---- Displayed Author & Quote Styling ---- */
+
+#quotetext {
+  color: #252525;
+  width: 600px;
+  margin: 20px auto;
+  height: auto;
+  font-family: 'Muli', Sans-Serif;
+}
+
+
+.authortext {
+  color: #363636;
+  font-family: 'Gochi Hand', Sans-Serif;
+}
+
+/* Twitter Icon */
+
+#tweetme {
+padding: 8px 0 40px 0;
+  text-align:center;
+  font-size:40px;
+  margin: auto;
+}

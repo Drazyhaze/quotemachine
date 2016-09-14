@@ -1,0 +1,87 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Quote Machine</title>
+    <meta name="description" content="Random Quote Machine Designed for Free Code Camp">
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Gochi+Hand|Muli" rel="stylesheet">  -->
+  </head>
+  <body>
+    <section>
+    
+<div class="containerquote container">
+  <div class="row">
+    
+    <!-- This is the tweet button -->
+    <!--<div id="tweet"><a></a></div> -->
+    <!-- The tweet button is not invoked -->
+    <!-- INVOKER IS BEST HERO DOTA 2 -->
+    
+    <h1 class="quotetitle">My Quote Machine</h1>
+    <div class="separator"></div>
+    <p class="fcctext"> A Free Code Camp Challenge</p>
+    </div>
+    <div class="row">
+  <div id="quotes">
+    <div id="quotetext"></div>
+    <div class="authortext"></div>
+  </div>
+  <div class="row">
+  </div>
+  </div>
+  <div class="row">
+  <button id="quotebutton" class="btn btn-block btn-md btn-primary">Generate Quote</button>
+    </div>
+    <div  id="tweet"><a></a>
+  </div>
+    </div>
+   
+</section>
+
+<footer>
+  <div class="row">
+    <h3 class="footertext">Designed by <span class="reid">Reid Quisenberry</span> | <span class="nlb">NLB</span> <span class="nlbblack">Studios</span></h3>
+  </div>
+</footer>
+   
+   
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+    
+    <!-- <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+     
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+     
+      return t;
+    }(document, "script", "twitter-wjs"));
+    </script> -->
+  </body>
+</html>
